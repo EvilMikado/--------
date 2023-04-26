@@ -4,6 +4,16 @@
   margin: 0;
   font-family: "Ubuntu", sans-serif;
 }
+.page{
+  height: 2000px;
+  background: rgba(211, 211, 211, 0.199);
+}
+.page__header{
+  background: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
 .container{
   max-width: 1280px;
   margin: 0 auto;
