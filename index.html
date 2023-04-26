@@ -8,14 +8,14 @@
   <title>Document</title>
 </head>
 <body class="page">
-  <header class="header page__header">
-    <div class="container header__container">
+  <header class="header">
+    <div class="container">
       <div class="header__top">
         <div class="header__logo">
           <p class="location header__location">Санкт-Петербург</p>
           <img src="images/logo.svg" alt="СПБ МИПК" class="logo">
         </div>
-        <div class="header__socials">
+        <div class="socials header__socials">
           <img src="images/icons/vk.svg" alt="vk" class="social-icon">
           <img src="images/icons/whatsapp.svg" alt="whatsapp" class="social-icon">
           <img src="images/icons/telegram.svg" alt="telegram" class="social-icon">
@@ -23,7 +23,6 @@
         <div class="header__search-bar search-bar">
             <input class="search-bar__input" type="search" placeholder="Найти">
             <button class="search-bar__btn" type="submit">Поиск</button>
-          <br>
         </div>
         <div class="header__info">
           <p class="schedule">Пн-Вс 09:00 - 18:00 (Мск)</p>
@@ -31,11 +30,10 @@
           <a class="email header__text"href="mailto:info@spmipk.com">info@spmipk.com</a>
         </div>
         <div class="burger">
-          <input id="burger__toggle" type="checkbox" />
+          <input id="burger__toggle" type="checkbox">
           <label class="burger__btn" for="burger__toggle">
             <span class="burger__line"></span>
           </label>
-    
           <div class="burger__menu">
             <p class="location burger__location">Санкт-Петербург</p>
             <img src="images/logo.svg" alt="СПБ МИПК" class="logo burger__logo">
@@ -51,7 +49,7 @@
               <p class="schedule">Пн-Вс 09:00 - 18:00 (Мск)</p>
               <a class="phone" href="tel:+88000000000">8 (800) 000-00-00</a>
               <a class="email"href="mailto:info@spmipk.com">info@spmipk.com</a>
-              <div class="burger__social">
+              <div class="socials burger__social">
                 <img src="images/icons/vk.svg" alt="vk" class="social-icon">
                 <img src="images/icons/whatsapp.svg" alt="whatsapp" class="social-icon">
                 <img src="images/icons/telegram.svg" alt="telegram" class="social-icon">
@@ -59,7 +57,7 @@
           </div>
         </div>
       </div>
-      <div class="header__botttom">
+      <div class="header__bottom">
         <nav class="nav header__nav">
           <ul class="nav__list">
             <li class="nav__item"><a href="#" class="nav__link">Направления</a></li>
@@ -72,6 +70,6 @@
       </div>
     </div>
   </header>
-  
+  <script src="script.js"></script>
 </body>
 </html>
